@@ -27,6 +27,7 @@ body {
 .player1-symbol-button[data-symbol="X"],
 .player2-symbol-button[data-symbol="X"] {
     background-color: red;
+    color: black;
     padding: 4px 16px;
     border-radius: 50%;
     font-weight: bold;
@@ -55,6 +56,7 @@ input[type="text"]{
 input[type="text"]::placeholder {
     text-align: center;
     margin-left: 20px;
+    color: black;
 }
 
 select {
@@ -67,6 +69,7 @@ select {
 option {
     text-align: center;
     margin-left: 20px;
+    color: black;
 }
 
 label, 
@@ -87,10 +90,12 @@ button {
     padding: 4px 16px;
     border-radius: 12px;
     border: 2px solid black;
+    color: black;
 }
 
 #mute-button {
     background-color: rgb(255, 125, 0);
+    margin: 20px;
 }
 
 #restart-button {
@@ -105,11 +110,7 @@ button {
     margin-top: 20px;
     margin-bottom: -80px;
 }
-
-#mute-button {
-    margin: 20px;
-}
-
+s
 .extra {
     display: flex;
     align-items: center;
