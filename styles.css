@@ -64,6 +64,8 @@ select {
     height: 28px;
     border-radius: 12px;
     border: 2px solid black;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 #game-mode,
@@ -135,6 +137,7 @@ button {
     justify-content: center;
     max-width: 300px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .cell {
