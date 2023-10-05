@@ -66,9 +66,12 @@ select {
     border: 2px solid black;
 }
 
-option {
+#game-mode,
+#ai-difficulty {
     text-align: center;
-    margin-left: 20px;
+}
+#game-mode option,
+#ai-difficulty option {
     color: black;
 }
 
@@ -110,10 +113,10 @@ button {
 }
 #start-button {
     background-color: rgb(89, 178, 89);
-    margin-top: 20px;
+    margin: 20px;
     color: black;
 }
-s
+
 .extra {
     display: flex;
     align-items: center;
