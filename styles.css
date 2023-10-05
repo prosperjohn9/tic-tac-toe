@@ -71,10 +71,13 @@ select {
 #game-mode,
 #ai-difficulty {
     text-align: center;
+    margin-left: 20px;
 }
 #game-mode option,
 #ai-difficulty option {
     color: black;
+    text-align: center;
+    margin-left: 20px;
 }
 
 label, 
@@ -137,7 +140,6 @@ button {
     justify-content: center;
     max-width: 300px;
     margin: 0 auto;
-    margin-top: 20px;
 }
 
 .cell {
