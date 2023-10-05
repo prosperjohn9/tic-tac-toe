@@ -67,9 +67,11 @@ select {
     font-size: 16px;
     font-weight: bold;
     color: black;
+    margin-left: 20px;
     text-align: center;
     border-radius: 12px;
-    border: 2px solid black;  
+    border: 2px solid black; 
+    padding-left: 8px; 
 }
 
 select option {
@@ -77,6 +79,8 @@ select option {
     font-weight: bold;
     color: black;
     text-align: center;
+    margin-left: 20px;
+    padding-left: 8px;
 }
 
 label, 
@@ -108,11 +112,13 @@ button {
 
 #restart-button {
     background-color: lightblue;
+    margin: 20px;
     color: black;
 }
 
 #new {
     background-color: rgb(89, 178, 89);
+    margin: 20px;
     color: black;
 }
 #start-button {
