@@ -118,7 +118,6 @@ button {
 #start-button {
     background-color: rgb(89, 178, 89);
     margin-top: 20px;
-    margin-bottom: -60px;
     color: black;
 }
 
@@ -140,6 +139,7 @@ button {
     justify-content: center;
     max-width: 300px;
     margin: 0 auto;
+    margin-top: -20px;
 }
 
 .cell {
