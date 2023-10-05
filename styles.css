@@ -60,24 +60,23 @@ input[type="text"]::placeholder {
 }
 
 select {
+    -webkit-appearance: none;
+    appearance: none;
     width: 200px;
     height: 28px;
-    border-radius: 12px;
-    border: 2px solid black;
-    appearance: none;
-    -webkit-appearance: none;
-}
-
-#game-mode,
-#ai-difficulty {
-    text-align: center;
-    margin-left: 20px;
-}
-#game-mode option,
-#ai-difficulty option {
+    font-size: 16px;
+    font-weight: bold;
     color: black;
     text-align: center;
-    margin-left: 20px;
+    border-radius: 12px;
+    border: 2px solid black;  
+}
+
+select option {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
 }
 
 label, 
@@ -118,7 +117,8 @@ button {
 }
 #start-button {
     background-color: rgb(89, 178, 89);
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: -60px;
     color: black;
 }
 
