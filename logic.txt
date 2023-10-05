@@ -1,0 +1,38 @@
+## Algorithm for the Tic Tac Toe Game
+
+    1. Game Structure and Modules:
+        a.) Create a gameBoard Module that stores the game state, including the game board array and methods to manipulate it.
+        b.) Create a player factory function that generate player objects.
+        c.) Create a displayController module that handles rendering the game board and user interface/
+        d.) Create a gameFlow module that controls the flow of the game, including starting/restarting the game and checking the winner.
+
+    2. HTML Setup:
+        a.) Setup an HTML structure for the game board, buttons, input fields and display elements to interact with the game.
+
+    3. Render Game Board:
+        a.) Use the displayController module to render the initial game board on the HTML page.
+        b.) Bind click event listeners to the game board cells to allow players to make their moves.
+
+    4. Player Moves:
+        a.) Implement logic to handle player moves when a cell is clicked on the game board.
+        b.) Update the game board array in the gameBoard module with the player's mark.
+        c.) Render the updated game board using the displayController module.
+
+    5. Prevent Invalid Moves:
+        a.) Check if the selected cell is already occupied before allowing the players to make a move.
+        b.) Display an error message or prevent the move if the cell is already taken.
+
+    6. Check for Game Over: 
+        a.) Implement logic check for a winning condition (3-in-a-row) or a tie condition on the game board array.
+        b.) Display a congratulatory message to the winning player or a message for a tie game.
+
+    7. Player vs. AI:
+        a.) Create an AI opponent that can make random legal moves.
+        b.) Add levels to the AI by implementing the Minimax Algorithm to create an unbeatable AI.
+        c.) Allow players to choose the AI level when starting the game.
+
+    8. Enhancements: 
+        a.) Allow players to input their names.
+        b.) Include a start/restart button to initialize the game.
+        c.) Improve the user interface and display elements for a better user experience.   
+     

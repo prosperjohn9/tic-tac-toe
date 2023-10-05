@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
+
+    <div id="container">
+        <div class="options">
+            <button id="mute-button">Mute</button><br>
+            <div id="player-selection">
+                <div id="player1" class="player">
+                    <label for="player1-name">Player One Name:</label>
+                    <input type="text" id="player1-name" name="player1-name" class="player-name" placeholder="Player One">
+                    <div class="symbol-selection">
+                        <p>Select Symbol:</p>
+                        <button class="symbol-button player1-symbol-button" data-symbol="X">X</button>
+                        <button class="symbol-button player1-symbol-button" data-symbol="O">O</button>
+                    </div>
+                </div>
+
+                <div id="player2" class="player">
+                    <label for="player2-name">Player Two Name:</label>
+                    <input type="text" id="player2-name" name="player2-name" class="player-name" placeholder="Player Two">
+                    <div class="symbol-selection">
+                        <p>Select Symbol:</p>
+                        <button class="symbol-button player2-symbol-button" data-symbol="X">X</button>
+                        <button class="symbol-button player2-symbol-button" data-symbol="O">O</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="game-mode-options">
+                <label for="game-mode">Game Mode:</label>
+                <select id="game-mode" name="game-mode">
+                    <option value="player">Player vs. Player</option>
+                    <option value="ai">Player vs. AI</option>
+                </select>
+            </div>
+
+            <div id="ai-options" class="hidden">
+                <label for="ai-difficulty">AI Difficulty:</label>
+                <select id="ai-difficulty" name="ai-difficulty">
+                    <option value="normal">Normal</option>
+                    <option value="impossible">God Mode</option>
+                </select>
+            </div>
+
+            <button id="start-button">Start Game</button>
+
+            <div class="extra">
+                <button id="restart-button" class="hidden">Restart Game</button>
+                <a href="./index.html">
+                    <button id="new" class="hidden">New</button>
+                </a>
+            </div>
+        </div>
+
+        <div id="game-board">
+            <div class="cell" data-cell-index="0"></div>
+            <div class="cell" data-cell-index="1"></div>
+            <div class="cell" data-cell-index="2"></div>
+            <div class="cell" data-cell-index="3"></div>
+            <div class="cell" data-cell-index="4"></div> 
+            <div class="cell" data-cell-index="5"></div>
+            <div class="cell" data-cell-index="6"></div>
+            <div class="cell" data-cell-index="7"></div>
+            <div class="cell" data-cell-index="8"></div>
+        </div>
+
+        <audio id="cell-sound" src="./audio/cell.wav" preload="auto"></audio>
+        <audio id="end-sound" src="./audio/end.wav" preload="auto"></audio>
+        <audio id="button-sound" src="./audio/button.wav" preload="auto"></audio>
+
+        <div id="message"></div>
+    </div>
+
+    <footer>
+        &copy; 2023 by ProsperJohn9 <a href="https://github.com/prosperjohn9"><img src="./images/github.svg" alt="github"></a>. All rights reserved.
+    </footer>
+</body>
+
+</html>
