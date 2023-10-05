@@ -96,19 +96,23 @@ button {
 #mute-button {
     background-color: rgb(255, 125, 0);
     margin: 20px;
+    color: black;
 }
 
 #restart-button {
     background-color: lightblue;
+    color: black;
 }
 
 #new {
     background-color: rgb(89, 178, 89);
+    color: black;
 }
 #start-button {
     background-color: rgb(89, 178, 89);
     margin-top: 20px;
     margin-bottom: -80px;
+    color: black;
 }
 s
 .extra {
